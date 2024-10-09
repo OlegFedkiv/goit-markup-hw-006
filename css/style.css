@@ -767,6 +767,7 @@ button {
 /* ============== / SECTION 4 =========== */
 
 /* ==========FOOTER========== */
+
 .page-footer-one {
   background-color: #2e2f42;
 }
@@ -887,6 +888,64 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+}
+.div-section-button {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-div-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    gap: 24px;
+  }
+  .link-page-footer {
+    justify-content: flex-start;
+  }
+  .paragraph-footer-page-icon {
+    justify-content: flex-start;
+  }
+  .page-footer-section-two-slogan {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 69px;
+  }
+  .page-footer-section-two-form {
+    display: flex;
+    flex-wrap: ;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 24px;
+    padding-left: 69px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .footer-div-section {
+    gap: 78px;
+  }
+  .page-footer-one {
+    height: 312px;
+  }
+  .page-footer-div-section {
+    padding: 0;
+  }
+  .footer-page-icon {
+    padding: 0;
+  }
+  .page-container {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+  }
+  .page-footer-div-section {
+    gap: ;
+  }
 }
 
 /* ========== / FOOTER========== */
