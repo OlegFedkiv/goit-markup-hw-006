@@ -546,7 +546,7 @@ button {
     justify-content: center;
     margin-bottom: 62px;
   }
-  .list-section-three:nth-child(3, 4) {
+  .list-section-three:nth-child(3 4) {
     margin-bottom: 96px;
   }
   .item-section-three {
@@ -783,7 +783,6 @@ button {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -918,7 +917,6 @@ button {
   }
   .page-footer-section-two-form {
     display: flex;
-    flex-wrap: ;
     align-items: baseline;
     justify-content: flex-start;
     gap: 24px;
@@ -942,9 +940,6 @@ button {
     display: flex;
     align-items: center;
     padding-top: 100px;
-  }
-  .page-footer-div-section {
-    gap: ;
   }
 }
 
