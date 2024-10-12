@@ -957,7 +957,6 @@ button {
   height: 100%;
   background-color: #fff;
   display: flex;
-
   justify-content: center;
   align-items: center;
   opacity: 0;
@@ -980,12 +979,8 @@ button {
   height: 100%;
   background-color: #ffffff;
   transform: translate(-50%, -50%);
-
-  width: 408px;
-  min-height: 584px;
   overflow: hidden;
   padding: 72px 24px 24px 24px;
-
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1051,6 +1046,7 @@ button {
 }
 
 .contacts-mobile-menu {
+  display: flex;
   margin-bottom: 32px;
 }
 .contacts-list-address-mobile-menu {
@@ -1066,9 +1062,7 @@ button {
   letter-spacing: 0.02em;
   color: #4d5ae5;
 }
-.icon-mobile-contacts-menu {
-  margin-top: auto;
-}
+
 .contacts-link-mobile-menu {
   font-weight: 500;
   font-size: 20px;
