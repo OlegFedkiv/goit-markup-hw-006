@@ -363,6 +363,7 @@ button {
   margin-bottom: 72px;
 }
 .title-section-two {
+  display: flex;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -646,7 +647,6 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  padding-top: 96px;
 }
 .paragraph-overlay {
   display: none;
@@ -654,7 +654,7 @@ button {
 .description-our-portfolio {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  margin-bottom: 48px;
+  margin-bottom: 96px;
   width: 288px;
   height: 120px;
 }
@@ -679,7 +679,7 @@ button {
 }
 @media screen and (min-width: 768px) {
   .title-section-four {
-    padding-top: 96px;
+    margin-top: 96px;
     margin-bottom: 72px;
   }
 
@@ -864,7 +864,7 @@ button {
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
-
+  color: #ffffff;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   opacity: 0.3;
@@ -875,6 +875,7 @@ button {
 .page-footer-section-two-button {
   min-width: 165px;
   height: 40px;
+  margin-bottom: 96px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -981,6 +982,7 @@ button {
   transform: translate(-50%, -50%);
   overflow: hidden;
   display: flex;
+  flex-wrap: wrap;
   padding: 72px 24px 24px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1045,7 +1047,6 @@ button {
 }
 
 .contacts-mobile-menu {
-  display: flex;
   margin-bottom: 32px;
 }
 .contacts-list-address-mobile-menu {
@@ -1078,7 +1079,6 @@ button {
 }
 
 .icon-mobile-contacts-menu {
-  display: block;
   margin-top: auto;
 }
 
